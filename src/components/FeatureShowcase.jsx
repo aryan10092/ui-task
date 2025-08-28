@@ -123,7 +123,7 @@ export default function FeatureShowcase() {
             <div className="flex justify-center mb-8 md:mb-0">
               <PhoneFrame imageUrl={features[active].image} />
             </div>
-            <div className="md:ml-8 ml-52">
+            <div className="md:ml-8 ml-20 sm:ml-52">
               <h3 className="mb-3 text-lg font-medium">Feature Showcase</h3>
               <ul className="grid gap-2 " role="tablist" aria-label="Features">
                 {features.map((f, idx) => (
