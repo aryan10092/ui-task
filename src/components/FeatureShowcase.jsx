@@ -106,7 +106,7 @@ export default function FeatureShowcase() {
       <Spacer label="Scroll down" />
 
       <section ref={sectionRef} className="relative" style={{ height: `calc(100vh * ${features.length})` }}>
-        <div ref={stickyRef} className="sticky top-0 h-screen flex items-center bg-white border-t border-b border-gray-200 ">
+        <div ref={stickyRef} className="sticky top-0 h-screen flex items-center bg-white ">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20 w-full max-w-full mx-auto items-center px-4 md:px-0">
             <div className="mb-8  items-center md:items-start md:mb-0 md:ml-8 md:mr-2 lg:ml-32  flex flex-col gap-3 pt-8 md:pt-0">
 
