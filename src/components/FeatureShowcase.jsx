@@ -113,7 +113,7 @@ export default function FeatureShowcase() {
               <p className="text-blue-500 font-semibold mb-2">{features[active].title}</p>
               <h2 className="text-xl  font-semibold mb-3 uppercase">{features[active].heading}</h2>
               <p className="text-gray-500 text-base mb-4 max-w-md w-xs ml-9 md:ml-0">{features[active].body}</p>
-              <div className="flex gap-2 mt-5">
+              <div className="flex gap-2 md:mt-5">
 
                 <button className="w-11 h-11 rounded-lg border border-gray-200 bg-white flex items-center justify-center text-xl hover:shadow" onClick={goPrev} aria-label="Previous feature">←</button>
                 {/* <div className="w-0.5 h-10 bg-blue-400 rounded mt-1.5" ></div> */}
